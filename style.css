@@ -18,7 +18,7 @@ body {
 }
 
 .navbar {
-    width: 70rem;
+    width: 90rem;
     height: 10rem;
     display: flex;
     align-items: center;
@@ -34,6 +34,11 @@ body {
     justify-content: center;
     padding-bottom: 1rem;
     position: relative;
+}
+
+.navbar-link:first-child,
+.navbar-link:last-child {
+    pointer-events: none;
 }
 
 .change.navbar-link {
