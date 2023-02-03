@@ -16,3 +16,21 @@ body {
     display: grid;
     place-items: center;
 }
+
+.navbar {
+    width: 70rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-link {
+    width: 10rem;
+    height: 100%;
+    background-color: rgb(222, 233, 181);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
