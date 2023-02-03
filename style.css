@@ -36,18 +36,39 @@ body {
     position: relative;
 }
 
+.change.navbar-link {
+    background-color: rgb(185, 197, 147);
+}
+
+.navbar-link.prevElChange {
+    border-top-right-radius: 1.3rem;
+}
+
+.navbar-link.nextElChange {
+    border-top-left-radius: 1.3rem;
+}
+
 .navbar-link::before {
     content: "";
-    width: 10rem;
+    width: 10.4rem;
     height: 8rem;
-    background-color: red;
+    background-color: rgb(191, 248, 226);
     position: absolute;
     top: -100%;
-    left: 0;
+    left: -0.2rem;
     border-radius: 0 0 5rem 5rem;
+}
+
+.change.navbar-link::before {
+    top: -30%;
 }
 
 .navbar-link i {
     font-size: 2.5rem;
     color: #333;
+}
+
+.change.navbar-link i {
+    color: #fff;
+    font-size: 3.5rem;
 }
